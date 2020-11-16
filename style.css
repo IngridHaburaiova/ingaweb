@@ -1,0 +1,107 @@
+
+
+body{
+ background-color: rgb(224, 219, 219);
+ font-family: Roboto;
+ margin: 0px;
+ min-width: 750px;
+}
+
+.horniLista{
+  display:flex;
+  justify-content: space-between;
+  height: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 49px;
+ }
+
+button{
+  width: 200px;
+  height: 40px;
+  background-color: rgb(31, 66, 224);
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#ingrid{
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(31, 66, 224);
+  margin: 30px;
+}
+
+.uvodnifoto{
+  display: block;
+  }
+
+.mojefoto{
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  animation-duration: 3s;
+  animation-name: slideout;
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+img{
+  width: 15%;
+  box-shadow: 4px 4px grey;
+  margin: 10px;
+  }
+
+.oMne{
+  background-color: rgb(31, 66, 224); 
+  margin: 40px;
+}
+
+.tisicslov{
+  font-size: 25px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#citat {
+  font-size:15px;
+  margin-top: 80px;
+  font-style: italic;
+  color: lightblue;
+}
